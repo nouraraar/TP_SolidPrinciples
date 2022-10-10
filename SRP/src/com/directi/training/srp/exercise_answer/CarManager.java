@@ -11,9 +11,9 @@ public class CarManager
 
     public CarManager(CarDao carDao, CarFormatter carFormatter, CarCompare carCompare)
     {
-        carDao = carDao;
-        carFormatter = carFormatter;
-        carCompare = carCompare;
+        this.carDao = carDao;
+        this.carFormatter = carFormatter;
+        this.carCompare = carCompare;
     }
 
 
